@@ -1,5 +1,8 @@
 import streamlit as st
-st.image("ZachTechs.jpg")
+from PIL import Image
+
+logo=Image.open("ZachTechs.jpg")
+st.image(logo, width=150)
 st.title('My Favorite Person, Candy')
 
 st.write("A song for you when you feel down")
