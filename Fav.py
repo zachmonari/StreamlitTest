@@ -18,3 +18,10 @@ st.write("Favorite song for us")
 st.audio("PerfectDesign.mp3", format="audio/wav", loop=False)
 st.write("Favorite song by Ed Sheeran")
 st.audio("PerfectEd.mp3", format="audio/wav", loop=False)
+
+# Footer
+st.markdown("""
+---
+### 💌 Forever Yours,
+**Zach**
+""")
