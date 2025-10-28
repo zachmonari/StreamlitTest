@@ -5,6 +5,13 @@ logo=Image.open("ZachTechs.jpg")
 st.image(logo, width=150)
 st.title('My Favorite Person, Candy')
 
+st.header("Surprise!")
+click=st.button("Click here")
+if click:
+    st.balloons()
+    st.markdown("Here's a bouquet &mdash;\
+                :tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:")
+
 st.write("A song for you when you feel down")
 st.audio("Close.mp3", format="audio/wav", loop=False)
 st.write("Favorite song for us")
