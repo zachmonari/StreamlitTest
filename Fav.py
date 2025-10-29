@@ -20,7 +20,7 @@ st.subheader("A small app to show how much I love and appreciate you.")
 
 # Image section
 image = Image.open("Us.jpg")
-st.image(image, caption="Our beautiful moment 💞", width=300)
+st.image(image, caption="One of Our beautiful moments 💞", width=500)
 
 # Love message
 st.markdown("""
@@ -48,12 +48,12 @@ for r in reasons:
 
 
 
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(3,vertical_alignment="bottom")
 
 with col1:
     st.header("Nature....")
     st.image("Nature1.jpg")
-    st.write("A song for you when you feel down")
+    st.write("A song for you...")
     st.audio("Close.mp3", format="audio/wav", loop=False)
 
 with col2:
