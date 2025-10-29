@@ -74,3 +74,4 @@ st.markdown("""
 ### 💌 Forever Yours,
 **Zach**
 """)
+st.caption("© 2025 ZachTechs")
