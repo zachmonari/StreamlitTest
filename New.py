@@ -7,6 +7,12 @@ st.image(logo,width=150)
 # ---- Page Setup ----
 st.set_page_config(page_title="Happy New Month My Love 💖", page_icon="💞", layout="centered")
 
+st.header("Surprise!")
+click=st.button("Click here")
+if click:
+    st.balloons()
+    st.markdown("Here's a bouquet &mdash;\
+                :tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:")
 # ---- Header ----
 st.title("🌸 Happy New Month, My Love 💖")
 st.subheader("To the girl who makes every day feel like a celebration of love.")
@@ -50,3 +56,4 @@ st.markdown("""
 **Forever Yours,**  
 ✨ *Zach* ✨
 """)
+st.caption("© 2025 ZachTechs")
