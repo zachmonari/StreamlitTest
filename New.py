@@ -9,16 +9,16 @@ st.set_page_config(page_title="Happy New Month My Love 💖", page_icon="💞", 
 
 # ---- Header ----
 st.title("🌸 Happy New Month, My Love 💖")
-st.subheader("To the woman who makes every day feel like a celebration of love.")
+st.subheader("To the girl who makes every day feel like a celebration of love.")
 
 # ---- Image Section ----
-col1, col2 = st.columns(2)
+col1, col2 = st.columns(2,vertical_alignment="bottom", border=False)
 with col1:
-    image = Image.open("PH2.jpg.jpg")
-    st.image(image, caption="My beautiful reason to smile 💞", width=500)
+    image = Image.open("PH2.jpg")
+    st.image(image, caption="My beautiful reason to smile 💞", width=325)
 with col2:
-    image = Image.open("PH1.jpg.jpg")
-    st.image(image,caption="One of the beautiful moments 💞", width=500)
+    image = Image.open("PH1.jpg")
+    st.image(image,caption="One of the beautiful moments 💞", width=325)
 
 
 # ---- Appreciation Message ----
