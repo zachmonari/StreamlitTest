@@ -19,12 +19,15 @@ if click:
 
     # ---- Image Section ----
     col1, col2 = st.columns(2, vertical_alignment="bottom", border=False)
+    st.write("A song for you...")
+    st.audio("PerfectEd.mp3", format="audio/wav", loop=False)
     with col1:
         image = Image.open("PH2.jpg")
         st.image(image, caption="My beautiful reason to smile 💞", width=325)
     with col2:
         image = Image.open("PH1.jpg")
         st.image(image, caption="One of the beautiful moments 💞", width=325)
+
 
     # ---- Appreciation Message ----
     st.markdown("""
