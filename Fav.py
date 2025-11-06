@@ -23,11 +23,16 @@ image = Image.open("Us.jpg")
 st.image(image, caption="One of Our beautiful moments 💞", width=500)
 
 # Love message
-st.markdown("""
-### 🌹 My Love Letter to You
-From the moment we met, my world became brighter.  
-Every laugh, every glance, every moment — means everything to me.  
-You inspire me, comfort me, and make me believe in forever. ❤️  
+st.markdown("""These past few months with you have been nothing short of magical.
+Every day, you fill my world with laughter, peace, and the kind of love that makes everything brighter.
+
+You’ve shown me what it means to truly care, to love with patience, kindness, and understanding.
+I’m so grateful for every moment we’ve shared and every memory we’ve made together.
+
+As we celebrate these few beautiful months, just know that I cherish you deeply — and I’m looking forward to many more months and years by your side.
+
+Happy Monthsary, my love 💖
+You’ll always be my favorite reason to smile.  
 """)
 
 # Love meter
