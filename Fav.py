@@ -8,16 +8,15 @@ st.title('My Favorite Person, Candy')
 st.header("Surprise!")
 click=st.button("Click here")
 if click:
+    # Header
+    st.title("💖 To My One and Only 💖")
+    st.subheader("We made it to another month! 💞")
     st.balloons()
     st.markdown("Here's a bouquet &mdash;\
                 :tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:")
 
 st.set_page_config(page_title="For My Love ❤️", page_icon="💞", layout="centered")
-
-# Header
-st.title("💖 To My One and Only 💖")
-st.subheader("A small app to show how much I love and appreciate you.")
-
+st.title("💖 Happy Anniversary my love 💖")
 # Image section
 image = Image.open("Us.jpg")
 st.image(image, caption="One of Our beautiful moments 💞", width=500)
@@ -29,7 +28,7 @@ Every day, you fill my world with laughter, peace, and the kind of love that mak
 You’ve shown me what it means to truly care, to love with patience, kindness, and understanding.
 I’m so grateful for every moment we’ve shared and every memory we’ve made together.
 
-As we celebrate these few beautiful months, just know that I cherish you deeply — and I’m looking forward to many more months and years by your side.
+As we celebrate these few beautiful months, just know that I cherish you deeply and I’m looking forward to many more months and years by your side.
 
 Happy Monthsary, my love 💖
 You’ll always be my favorite reason to smile.  
