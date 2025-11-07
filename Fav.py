@@ -55,19 +55,19 @@ for r in reasons:
 col1, col2, col3 = st.columns(3,vertical_alignment="bottom")
 
 with col1:
-    st.header("Nature....")
+    st.header("Nature...")
     st.image("Nature1.jpg")
     st.write("A song for you...")
     st.audio("Close.mp3", format="audio/wav", loop=False)
 
 with col2:
-    st.header("Nice pic....")
+    st.header("Nice pic...")
     st.image("Nature2.jpg")
     st.write("Favorite song for us")
     st.audio("PerfectDesign.mp3", format="audio/wav", loop=False)
 
 with col3:
-    st.header("The sunset....")
+    st.header("The sunset...")
     st.image("Nature3.jpg")
     st.write("Favorite song by Ed Sheeran")
     st.audio("PerfectEd.mp3", format="audio/wav", loop=False)
